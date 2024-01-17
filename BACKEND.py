@@ -46,9 +46,4 @@ class IMG_PRED:
 
         return result
 
-if __name__=='__main__':
-    model=IMG_PRED()
-    result=model.predict(
-        url='https://www.diggers.com.au/cdn/shop/products/meadow-daisy-seed-s869_3d4d3380-4b8c-4f35-b730-02060660d800_1200x.jpg?v=1637121734')
-    print(result)
 
